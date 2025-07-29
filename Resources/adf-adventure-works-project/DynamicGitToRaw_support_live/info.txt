@@ -1,6 +1,0 @@
-selected resource name:		DynamicGitToRaw
-selected resource type:		pipeline
-factory name:			adf-adventure-works-project
-factory location:		eastasia
-subscription id:		28b5bc75-f1c4-4e40-af1d-5f864070b0a1
-time of download (UTC):		Tue, 29 Jul 2025 19:37:48 GMT
