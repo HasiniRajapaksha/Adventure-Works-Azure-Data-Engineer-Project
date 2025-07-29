@@ -164,17 +164,6 @@ CREATE EXTERNAL FILE FORMAT parquet_format
 WITH (FORMAT_TYPE = PARQUET);
 ```
 
-## 📊 Analytics & Visualization
-
-![Power BI Dashboard](images/powerbi-dashboard.png)
-
-**Key Metrics Tracked:**
-- 📈 Daily sales trends
-- 🏆 Top performing products
-- 🌍 Regional sales analysis
-- 📅 Seasonal patterns
-- 🔄 Return analysis
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -210,69 +199,18 @@ WITH (FORMAT_TYPE = PARQUET);
 5. **Deploy Synapse Objects**
    - Execute SQL scripts from `synapse/sql-scripts/`
    - Create external tables and views
-
-![Setup Process](images/setup-process.png)
-
-## 💡 Key Learnings & Interview Points
-
-### 🎯 Technical Concepts Mastered
-
-- **Medallion Architecture**: Bronze-Silver-Gold data layering
-- **Dynamic Pipelines**: Parameter-driven ADF pipelines
-- **PySpark Optimization**: Efficient data transformations
-- **External Tables**: Synapse Analytics data virtualization
-- **Security Best Practices**: Service Principal implementation
-
-### 🎙️ Interview Questions Covered
-
-1. **"How do you handle dynamic data ingestion?"**
-   - Implemented For-Each loops with JSON configuration
-   - Parameter-driven pipeline design
-
-2. **"Explain your data transformation approach"**
-   - Medallion architecture with clear separation of concerns
-   - PySpark transformations with built-in functions
-
-3. **"How do you ensure data security in Azure?"**
-   - Service Principal for cross-service authentication
-   - Managed Identity for Synapse-Data Lake integration
-
-![Interview Prep](images/interview-points.png)
-
-## 🔧 Troubleshooting Guide
-
-### Common Issues & Solutions
-
-| Issue | Solution |
-|-------|----------|
-| **Storage Access Denied** | Verify Service Principal permissions |
-| **Databricks Cluster Failed** | Check cluster size and region availability |
-| **Synapse Query Timeout** | Optimize query with proper filtering |
-| **Power BI Connection Error** | Validate SQL endpoint and credentials |
-
+  
+<!--
 ## 📚 Additional Resources
 
 - 📖 [Project Documentation](docs/)
 - 🎥 [Video Walkthrough]([Video Link])
 - 📝 [Medium Article]([Medium Link])
 - 💻 [LinkedIn Post]([LinkedIn Link])
-
+-->
 ## 🤝 Contributing
 
 Feel free to fork this project and submit pull requests for improvements!
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**[Your Name]**
-- 📧 Email: [your.email@domain.com]
-- 💼 LinkedIn: [Your LinkedIn Profile]
-- 🐱 GitHub: [Your GitHub Profile]
-
----
 
 ⭐ **If this project helped you, please give it a star!** ⭐
 
