@@ -38,7 +38,7 @@ This project implements a **Bronze → Silver → Gold** medallion architecture 
 - 📦 Returns and order information
 - 🗓️ Calendar dimension data
 
-![Dataset Overview](images/dataset-overview.png)
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/61d40385-4dc4-4e8d-8ddc-4e6199c86f07" />
 
 ## 🚀 Key Features
 
