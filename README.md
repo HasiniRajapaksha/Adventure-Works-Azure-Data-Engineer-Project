@@ -50,7 +50,7 @@ This project implements a **Bronze → Silver → Gold** medallion architecture 
 - **External Table Creation**: Three-step external table setup in Synapse
 - **End-to-End Security**: Service Principal and Managed Identity implementation
 
-![Dynamic Pipeline](images/dynamic-pipeline.png)
+<img width="1912" height="1016" alt="Image" src="https://github.com/user-attachments/assets/e4bc6a1a-ee78-46b2-b991-29d66f081e26" />
 
 ### 🔧 Advanced Transformations
 
@@ -111,7 +111,7 @@ azure-data-engineering-project/
 | **Synapse Analytics** | `synapse-aw-project` | Data warehouse |
 | **App Registration** | `awproject_app` | Service Principal for security |
 
-![Azure Resources](images/azure-resources.png)
+<img width="1918" height="1012" alt="Image" src="https://github.com/user-attachments/assets/eaa08e99-6b37-4ac0-bacb-6fd2d4c65cd0" />
 
 ## 🔐 Security Implementation
 
@@ -127,12 +127,11 @@ spark.conf.set("fs.azure.account.oauth2.client.secret.<storage-account>.dfs.core
                "<client-secret>")
 ```
 
-![Security Setup](images/security-setup.png)
 
 ## 📈 Data Pipeline Flow
 
 ### Phase 1: Data Ingestion (Bronze Layer)
-![Bronze Layer](images/bronze-layer-ingestion.png)
+<img width="1918" height="1015" alt="Image" src="https://github.com/user-attachments/assets/106042e4-2f5f-44a9-a864-1e4e8148d042" />
 
 **Dynamic Pipeline Implementation:**
 - JSON configuration-driven data ingestion
@@ -140,7 +139,7 @@ spark.conf.set("fs.azure.account.oauth2.client.secret.<storage-account>.dfs.core
 - HTTP source to Data Lake sink mapping
 
 ### Phase 2: Data Transformation (Silver Layer)  
-![Silver Layer](images/silver-layer-transformation.png)
+<img width="1916" height="1013" alt="Image" src="https://github.com/user-attachments/assets/7be8e7f4-ef46-4884-8c2e-68090afaf5c2" />
 
 **PySpark Transformations:**
 - Date dimension creation
@@ -149,7 +148,7 @@ spark.conf.set("fs.azure.account.oauth2.client.secret.<storage-account>.dfs.core
 - Sales metrics calculation
 
 ### Phase 3: Data Serving (Gold Layer)
-![Gold Layer](images/gold-layer-serving.png)
+<img width="1917" height="1015" alt="Image" src="https://github.com/user-attachments/assets/a453cb56-0091-40f1-846e-d2c867521e84" />
 
 **Synapse External Tables:**
 ```sql
