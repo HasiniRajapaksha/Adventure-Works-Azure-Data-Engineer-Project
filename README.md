@@ -4,9 +4,9 @@
 
 This end-to-end Azure Data Engineering project demonstrates a complete **Medallion Architecture** implementation using Adventure Works dataset. The project showcases real world data engineering scenarios including API integration, dynamic pipeline creation, and advanced data transformations.
 
-**🔗 [Project Demo Video]([Insert Video Link Here])**
+<!--**🔗 [Project Demo Video]([Insert Video Link Here])**-->
 
-![Project Architecture](images/architecture-diagram.png)
+<!--![Project Architecture](images/architecture-diagram.png)-->
 
 ## 🏗️ Architecture
 
@@ -16,7 +16,7 @@ This project implements a **Bronze → Silver → Gold** medallion architecture 
 - **Silver Layer (Transformed)**: Cleaned and transformed data with business logic
 - **Gold Layer (Serving)**: Analytics-ready data warehouse for consumption
 
-![Data Flow](images/data-flow-diagram.png)
+<!--![Data Flow](images/data-flow-diagram.png)-->
 
 ## 🛠️ Tech Stack
 
@@ -66,7 +66,7 @@ df_cus.withColumn('FullName', concat_ws(' ', col('Prefix'), col('FirstName'), co
 df_sales.groupBy('OrderDate').agg(count('OrderNumber').alias('TotalOrders'))
 ```
 
-![Data Transformations](images/transformations-code.png)
+<!--![Data Transformations](images/transformations-code.png)-->
 
 ## 🏛️ Project Structure
 
